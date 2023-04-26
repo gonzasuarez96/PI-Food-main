@@ -1,0 +1,104 @@
+  /************* Botones Home, Create & Refreash ***************/
+  .bgHyC {
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .bgHyC button {
+    border-radius: 15px;
+    margin: 2px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 35px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #8f8e8e;
+  
+    font-family: "DM Sans", sans-serif;
+    /* background: rgba(209, 196, 189, 0.69); */
+    background: rgba(178, 165, 157, 0.69);
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .bgHyC button:hover {
+    cursor: pointer;
+    transition: background-color 0.5s;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #313131;
+  }
+
+  
+  /************* Search ***************/
+  .bgSearch {
+    margin: 2px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /************* SearchBar - Input ***************/
+  .bgIyBtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  .bgIyBtn input {
+    margin-right: 10px;
+    border-radius: 20px;
+  
+    height: 23px;
+    width: 180px;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #8f8e8e;
+  
+    font-family: "DM Sans", sans-serif;
+    /* background: rgba(209, 196, 189, 0.69); */
+    background: rgba(178, 165, 157, 0.69);
+    font-size: 15px;
+    /* font-weight: bold; */
+  }
+  
+  .bgIyBtn input:hover {
+    cursor: pointer;
+    transition: background-color 0.5s;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #313131;
+  }
+  
+  
+  /************* SearchBar - Button ***************/
+  
+  .bgIyBtn div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid #8f8e8e;
+    /* background: rgba(209, 196, 189, 0.69); */
+    background: rgba(178, 165, 157, 0.69);
+  }
+  
+  
+  .bgIyBtn div:hover {
+    cursor: pointer;
+    transition: background-color 0.5s;
+    background-color: white;
+    border: 1px solid #313131;
+  }
